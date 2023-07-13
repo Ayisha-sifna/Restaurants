@@ -1,0 +1,137 @@
+.manage {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.manage h4 {
+    align-items: start;
+    padding-left: 3rem;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 80px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.list-icon {
+    color: blue;
+    margin-right: 1rem;
+}
+
+.icon p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons button {
+    height: 1.5rem;
+    border-radius: 2px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    margin-right: 1rem;
+}
+
+.edit .edit-icon {
+    margin-right: 5px;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
+
+.delete .delete-icon {
+    margin-right: 5px;
+}
+
+.menu-container {
+    width: 82%;
+}
+
+.addcategory-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    align-items: flex-end;
+    border-color: blue;
+    margin-left: 70%;
+    height: 3rem;
+}
+
+.edit-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    margin-right: 1rem;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.edit-link .edit-icon {
+    margin-right: 5px;
+    width: 2rem;
+    border-radius: 9px;
+}
+
+.subcateg-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 44px;
+}
+
+
+/* Media Screen Styles */
+@media screen and (max-width: 768px) {
+    .menu-container {
+        width: 100%;
+    }
+
+    .addcategory-button {
+        margin-left: 0;
+    }
+
+    .manage h4 {
+        padding-left: 0;
+    }
+
+    .row1,
+    .row2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

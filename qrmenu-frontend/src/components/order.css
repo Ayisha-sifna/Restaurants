@@ -1,0 +1,45 @@
+.order {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+table {
+    width: 90%;
+    height: 200px;
+    border-radius: 7px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+th {
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(252, 246, 246);
+}
+
+.order-container p {
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.order-container {
+    border-radius: 7px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, .25);
+    margin-top: 1rem;
+    padding: 0;
+    width: 90%;
+}

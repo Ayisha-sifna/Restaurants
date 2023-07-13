@@ -1,0 +1,38 @@
+.footer {
+    padding: 2rem 2rem;
+    background-color: white;
+    border-color: #e0d3d3;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo i {
+    color: rgb(21, 19, 19);
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+
+.logo i:hover {
+    color: blue;
+}
+
+@media screen and(max-width:850px) {
+    .footer {
+        padding: 4rem 2rem;
+
+    }
+
+    .footer i {
+        margin: 1rem 1rem 0 0;
+    }
+
+    .footer p {
+        font-size: .5rem;
+    }
+
+}
